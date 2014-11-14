@@ -1,6 +1,6 @@
-bouncy
+shapes
 ===========
 
 *johnsully83*
 
-A silly game.
+Not sure what this is yet.
