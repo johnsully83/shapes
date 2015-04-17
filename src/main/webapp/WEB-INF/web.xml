@@ -2,8 +2,8 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
-	id="bouncy" version="3.0">
-	<display-name>bouncy</display-name>
+	id="shapes" version="3.0">
+	<display-name>shapes</display-name>
 
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
@@ -69,7 +69,7 @@
 	<!-- ******************** ERROR PAGES ******************** -->
 	<error-page>
 		<error-code>404</error-code>
-		<location>/WEB-INF/jsp/main/bouncy.jsp</location>
+		<location>/WEB-INF/jsp/main/shapes.jsp</location>
 	</error-page>
 	
 </web-app>

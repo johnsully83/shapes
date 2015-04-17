@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.johnsully83</groupId>
-	<artifactId>bouncy</artifactId>
+	<artifactId>shapes</artifactId>
 	<packaging>war</packaging>
 	<version>1.0</version>
-	<name>bouncy</name>
+	<name>shapes</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<org.springframework.version>4.0.6.RELEASE</org.springframework.version>
@@ -499,7 +499,7 @@
 		</profile>
 	</profiles>
 	<build>
-		<finalName>bouncy</finalName>
+		<finalName>shapes</finalName>
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
@@ -566,8 +566,8 @@
 				<artifactId>lesscss-maven-plugin</artifactId>
 				<version>1.7.0.1.1</version>
 				<configuration>
-					<sourceDirectory>${project.basedir}/src/main/webapp/less/bouncy</sourceDirectory>
-					<outputDirectory>${project.basedir}/src/main/webapp/css/bouncy</outputDirectory>
+					<sourceDirectory>${project.basedir}/src/main/webapp/less/shapes</sourceDirectory>
+					<outputDirectory>${project.basedir}/src/main/webapp/css/shapes</outputDirectory>
 					<compress>true</compress>
 					<includes>
 						<include>*.less</include>
